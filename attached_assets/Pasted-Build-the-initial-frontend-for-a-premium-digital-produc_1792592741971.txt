@@ -1,0 +1,75 @@
+Build the initial frontend for a premium digital products and membership storefront called DonLusso.
+
+DESIGN DIRECTION:
+
+* Apple-inspired minimalism with a subtle luxury aesthetic.
+* Warm ivory/off-white background.
+* Black and charcoal typography.
+* Subtle champagne gold accents.
+* Elegant typography, generous whitespace and clean layouts.
+* Rounded cards, subtle shadows and smooth transitions.
+* Fully responsive, designed mobile-first.
+* Premium, sophisticated and trustworthy. Avoid looking like a generic SaaS template.
+
+TECHNICAL REQUIREMENTS:
+
+* React
+* Vite
+* TypeScript
+* Tailwind CSS
+* Use reusable components and a clean project structure.
+* Ensure the project runs correctly in Replit.
+
+PAGES TO BUILD:
+
+1. Homepage
+
+* Elegant navigation with DonLusso logo.
+* Links to Home, Products, Membership and Login.
+* Premium hero section with headline, description and call-to-action.
+* Featured digital products.
+* Membership preview.
+* Benefits section.
+* Elegant footer.
+
+2. Products page
+
+* Product cards with images, descriptions and prices.
+* Product detail page or modal.
+* Purchase buttons (visual only for now).
+
+3. Membership page
+
+* Premium membership presentation.
+* Pricing section.
+* Benefits and included features.
+* Join button (visual only for now).
+
+4. Login and registration pages
+
+* Minimalist forms.
+* Email and password fields.
+* Matching DonLusso design.
+
+5. Customer dashboard (visual prototype)
+
+* Overview.
+* Purchased products.
+* Membership status.
+* Purchase history.
+* Account settings.
+* Discord and Telegram access section.
+
+IMPORTANT:
+
+* Do not integrate payments yet.
+* Do not implement fake authentication.
+* Do not create fake payment success screens.
+* Do not connect external services yet.
+* Do not add API keys or secrets.
+* Use realistic placeholder products and clearly structured sample data.
+* Make all navigation and page transitions work.
+* Do not overwrite or delete the existing GitHub repository.
+* Prioritize excellent mobile usability.
+
+First inspect the existing repository, then implement the website. Explain any dependencies or setup commands needed and make sure the application starts successfully.
