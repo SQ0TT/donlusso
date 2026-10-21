@@ -1,0 +1,206 @@
+Redesign the existing DonLusso website into a premium trading signals and market analysis membership platform.
+
+IMPORTANT: Use the supplied Cloud+ website screenshots and https://cloud-yq.net/udid.php as visual design references. Reproduce the overall design language, layout inspiration, button style and visual atmosphere, but do NOT copy its branding, text, logos, images or business concept.
+
+The business is DonLusso Trading. It offers premium trading signals, market analysis and trading-related research through paid memberships.
+
+DESIGN IDENTITY
+
+Create a premium dark luxury aesthetic:
+
+* Deep black, charcoal and midnight navy backgrounds.
+* Champagne gold and muted metallic gold as primary accent colours.
+* Subtle blue and dark green ambient gradients.
+* Glassmorphism: translucent cards, backdrop blur, delicate borders and soft reflections.
+* Rounded buttons and cards, similar to the supplied Cloud+ references.
+* White and light-grey typography.
+* Modern bold sans-serif headings.
+* Smooth transitions, hover effects and subtle animations.
+* Premium, sophisticated and trustworthy.
+* Excellent mobile-first responsiveness, especially on iPhones.
+
+Avoid the existing ivory/off-white editorial aesthetic. The new direction should be dark, luxurious, modern and technology-focused.
+
+HEADER AND NAVIGATION
+
+Create a polished responsive header:
+
+* DonLusso logo and wordmark on the left.
+* Navigation: Home, Products, Membership, About.
+* Sign In button in champagne gold.
+* Hamburger menu on mobile.
+* Glass-effect header with subtle transparency.
+* Make navigation consistent across every page.
+
+1. HOMEPAGE
+
+Create a visually impressive homepage inspired by the first Cloud+ reference screenshot.
+
+Hero section:
+
+* Small premium badge: PREMIUM TRADING INTELLIGENCE.
+* Main headline: “Trade with clarity. Think beyond the market.”
+* Highlight selected words in champagne gold.
+* Supporting text explaining that DonLusso provides trading signals, market analysis and insights for its members.
+* Primary gold button: “Get Started”.
+* Secondary glass button: “Explore Membership”.
+
+iPhone mockup:
+
+* Place a large realistic iPhone mockup beneath or alongside the hero content.
+* Its screen should display a fictional DonLusso member dashboard.
+* Include a dark dashboard interface with:
+    * DonLusso branding.
+    * Market overview.
+    * Example XAU/USD market analysis.
+    * Recent signal cards.
+    * Membership status.
+    * Navigation icons.
+* The phone should be visually prominent, similar to the Cloud+ reference.
+* Create the phone mockup using HTML/CSS or suitable existing assets. Do not use a generic unrelated phone photograph.
+
+STATISTICS SECTION
+
+Create a large glassmorphism statistics panel inspired by the reference screenshot.
+
+Show four metrics:
+
+* Total subscribers.
+* Active members.
+* Total community revenue.
+* Published market analyses.
+
+Use illustrative placeholder values during development, for example:
+
+* 1,248 subscribers.
+* 1,106 active members.
+* €48,500 community revenue.
+* 325 analyses published.
+
+IMPORTANT: These are demonstration values only. Clearly mark them as sample/demo statistics in the development preview. Do not represent fabricated figures as verified real business performance or real customer numbers. Structure the metrics so they can later be replaced with genuine database-backed figures.
+
+FEATURES SECTION
+
+Create elegant glass cards for:
+
+* Premium trading signals.
+* Daily market analysis.
+* Gold and forex market insights.
+* Member-only research.
+* Community access.
+* Educational trading resources.
+
+Each card should have a modern icon, heading and short description.
+
+2. PRODUCTS / MEMBERSHIP PAGE
+
+The main products are two subscription plans.
+
+PLAN ONE:
+
+* One-month membership.
+* Full access to the included DonLusso Trading services.
+* Price must be an easily editable placeholder until I decide the final price.
+* Gold subscription button.
+
+PLAN TWO:
+
+* Six-month membership.
+* Same core membership benefits.
+* Discount compared with six individual monthly payments.
+* Clearly display the saving and the effective monthly price once actual prices are configured.
+* Make this the highlighted “BEST VALUE” plan.
+* Gold subscription button.
+
+Design:
+
+* Two large glassmorphism pricing cards.
+* Subtle gold border around the six-month plan.
+* Attractive price typography.
+* Feature checklist.
+* Clear billing duration.
+* Responsive layout: side-by-side on larger screens, stacked on iPhone.
+
+Do not invent final prices. Keep prices configurable in one central product configuration file.
+
+Add a section explaining what members receive and how the membership works.
+
+3. LOGIN PAGE
+
+Create a dedicated login page following the dark Cloud+ reference style.
+
+* Centered glass-effect authentication card.
+* DonLusso logo at the top.
+* Heading: “Welcome back”.
+* Supporting text: “Your market intelligence, all in one place.”
+* Email field.
+* Password field.
+* Show/hide password control.
+* Remember me checkbox.
+* Forgot password link.
+* Large champagne-gold Sign In button.
+* Link to create an account.
+
+4. CREATE ACCOUNT PAGE
+
+Create a dedicated registration page matching the login page.
+
+* Centered glass-effect card.
+* DonLusso branding.
+* Heading: “Join DonLusso”.
+* Supporting text: “Create your account and unlock premium market insights.”
+* Full name field.
+* Email address field.
+* Password field.
+* Confirm password field.
+* Password visibility controls.
+* Terms and conditions checkbox.
+* Champagne-gold Create Account button.
+* Link for existing members to sign in.
+
+Make sure the form looks polished and fits properly on iPhone screens.
+
+5. MEMBER DASHBOARD VISUAL PROTOTYPE
+
+Create a premium customer dashboard design containing:
+
+* Welcome message.
+* Membership status.
+* Subscription type and expiry date.
+* Recent trading signals.
+* Latest market analyses.
+* Account settings.
+* Purchase history.
+* Community access section.
+
+Keep this as a visual prototype for now. Do not pretend authentication or payments are working.
+
+6. FOOTER
+
+Include:
+
+* DonLusso branding.
+* Home, Products, Membership and Contact links.
+* Terms and Conditions.
+* Privacy Policy.
+* Risk Disclaimer.
+
+Add a clear trading risk disclaimer stating that trading involves risk, signals and analysis are informational, and no profits are guaranteed.
+
+TECHNICAL REQUIREMENTS
+
+* First inspect the existing project and its framework.
+* Preserve the existing working application structure where practical.
+* Use reusable React components and TypeScript if already configured.
+* Maintain clean code and responsive layouts.
+* Do not introduce unnecessary paid dependencies.
+* Do not add API keys or secrets.
+* Do not integrate payments or real authentication yet.
+* Do not delete the existing GitHub repository or overwrite the project with an unrelated template.
+* Ensure all navigation and buttons work appropriately as frontend interactions.
+* Test the application at mobile and desktop widths.
+* Run the application and fix build errors before finishing.
+
+The result should feel like a real premium trading technology brand, not a generic website template.
+
+Prioritize visual quality, polished mobile experience and close adherence to the supplied references.

@@ -1,4 +1,4 @@
-# DonLusso storefront
+# DonLusso Trading
 
 ## Run locally or in Replit
 
@@ -6,4 +6,8 @@
 - Start the Vite development server with `npm run dev` (bound to `0.0.0.0:5000`).
 - Create a production build with `npm run build`.
 
-The app is a responsive React, TypeScript, Vite, and Tailwind CSS storefront prototype. It uses local sample product and dashboard data. Login, registration, checkout, account changes, and community links are intentionally presentation-only; no credentials are sent or stored, and no payments or external account services are connected.
+## Product and prototype boundaries
+
+DonLusso Trading is a membership platform concept for trading signals, market analysis, and trading-related research. This frontend is a visual prototype: all market examples and homepage metrics are fictional demo content, not verified business or trading performance. The risk disclaimer must remain visible.
+
+Subscription prices are centrally configured in `src/data/store.ts` and remain unset until actual prices are supplied. Login, registration, password reset, checkout, billing, live research, contact channels, account persistence, and Discord/Telegram access are not connected. Never claim a sign-in, purchase, subscription, message, or account change succeeded. Terms and privacy content are draft placeholders requiring review before launch.

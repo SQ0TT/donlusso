@@ -1,43 +1,34 @@
 import type { Product } from '../data/store'
+import { Activity, BookOpen, GraduationCap, Landmark, ScanLine, Users } from 'lucide-react'
 
-const artworkClass: Record<Product['artwork'], string> = {
-  atlas: 'art-atlas',
-  studio: 'art-studio',
-  notes: 'art-notes',
-  folio: 'art-folio',
-  signal: 'art-signal',
-  vault: 'art-vault',
+const artworkIcon = {
+  signal: Activity,
+  analysis: BookOpen,
+  gold: Landmark,
+  research: ScanLine,
+  community: Users,
+  education: GraduationCap,
 }
 
-export function ProductArtwork({ kind, compact = false }: { kind: Product['artwork']; compact?: boolean }) {
+export function ProductArtwork({ kind, compact = false }: { kind: Product['icon']; compact?: boolean }) {
+  const Icon = artworkIcon[kind]
   return (
-    <div className={`product-art ${artworkClass[kind]} ${compact ? 'product-art-compact' : ''}`} aria-hidden="true">
-      <div className="art-topline"><span>DONLUSSO STUDIO</span><span>№ 0{Object.keys(artworkClass).indexOf(kind) + 1}</span></div>
-      {kind === 'atlas' && <><div className="atlas-orbit" /><div className="atlas-square" /><div className="art-title">The<br /><i>Quiet</i><br />Launch</div><div className="art-small">A CREATOR'S FIELD GUIDE</div></>}
-      {kind === 'studio' && <><div className="studio-sun" /><div className="studio-line one" /><div className="studio-line two" /><div className="art-title">Studio<br /><i>Letters</i></div><div className="art-small">A PRACTICE IN WORDS</div></>}
-      {kind === 'notes' && <><div className="notes-paper"><div className="notes-rule" /><div className="notes-rule" /><div className="notes-rule" /><div className="notes-rule short" /></div><div className="notes-orb" /><div className="art-title">The Good<br /><i>Notes</i></div><div className="art-small">A PLACE FOR IDEAS</div></>}
-      {kind === 'folio' && <><div className="folio-arch" /><div className="folio-panel" /><div className="art-title">The<br /><i>Field</i><br />Guide</div><div className="art-small">FOR THE WORK THAT MATTERS</div></>}
-      {kind === 'signal' && <><div className="signal-ring outer" /><div className="signal-ring inner" /><div className="signal-dot" /><div className="art-title">Soft<br /><i>Signal</i></div><div className="art-small">A BRAND STUDY</div></>}
-      {kind === 'vault' && <><div className="vault-shape" /><div className="vault-stem" /><div className="art-title">The<br /><i>Long</i><br />Game</div><div className="art-small">A SEASONAL PLANNER</div></>}
-      <div className="art-footer"><span>CONSIDERED DIGITAL GOODS</span><span>DL—25</span></div>
+    <div className={`product-art glass-surface flex items-center justify-center ${compact ? 'min-h-0' : ''}`} aria-hidden="true">
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_20%,rgba(208,184,120,.16),transparent_46%)]" />
+      <div className="relative flex h-16 w-16 items-center justify-center rounded-2xl border border-[#cfb775]/25 bg-[#cfb775]/[.08] text-[#d5c186]"><Icon size={compact ? 18 : 27} /></div>
     </div>
   )
 }
 
 export function HeroArtwork() {
   return (
-    <div className="hero-art relative isolate aspect-[.88] w-full max-w-[480px] overflow-hidden rounded-[5px] bg-[#c6b59a] shadow-[0_24px_70px_rgba(73,59,38,.12)]">
-      <div className="grain absolute inset-0" />
-      <div className="hero-sun" />
-      <div className="hero-arch hero-arch-back" />
-      <div className="hero-arch hero-arch-front" />
-      <div className="hero-stone" />
-      <div className="absolute left-[9%] top-[8%] z-10 text-[9px] tracking-[.2em] text-[#544a3d]">DONLUSSO STUDIO &nbsp; / &nbsp; EST. 2022</div>
-      <div className="absolute bottom-[9%] left-[9%] z-10 max-w-[78%]">
-        <p className="mb-3 text-[9px] tracking-[.24em] text-[#554a3c]">A MORE CONSIDERED DIGITAL LIFE</p>
-        <p className="font-display text-[clamp(34px,6vw,54px)] leading-[.98] tracking-[-1.7px] text-[#302a24]">Make room<br /><i className="font-normal">for good work.</i></p>
+    <div className="glass-surface relative isolate aspect-[.88] w-full max-w-[480px] overflow-hidden rounded-[28px]">
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_60%_30%,rgba(198,174,112,.2),transparent_44%),linear-gradient(145deg,rgba(32,65,78,.45),transparent)]" />
+      <div className="absolute left-[10%] top-[10%] text-[9px] tracking-[.2em] text-[#c5b782]">DONLUSSO TRADING / RESEARCH</div>
+      <div className="absolute bottom-[10%] left-[10%] z-10 max-w-[78%]">
+        <p className="mb-3 text-[9px] tracking-[.24em] text-[#a7afb8]">CLARITY OVER CERTAINTY</p>
+        <p className="font-display text-[clamp(34px,6vw,54px)] leading-[.98] tracking-[-1.7px] text-[#e9e8e2]">Think beyond<br /><i className="font-normal text-[#d4bf83]">the market.</i></p>
       </div>
-      <div className="absolute bottom-[9%] right-[9%] z-10 text-[9px] tracking-[.12em] text-[#574d41]">01—06</div>
     </div>
   )
 }
