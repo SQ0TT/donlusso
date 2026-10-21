@@ -1,0 +1,72 @@
+I want to make the following visual and layout changes to the existing DonLusso website. Please modify the existing project rather than rebuilding it. Preserve all existing functionality that is not explicitly mentioned below.
+
+1. Global typography
+
+* Identify the font currently used in the “Get Started” button.
+* Use that exact same font throughout the entire website.
+* Apply it consistently to headings, paragraphs, navigation, buttons, cards, and footer.
+* Make sure the typography remains elegant, clean, and readable.
+
+2. Button glow effect
+
+* Add a subtle, vibrant glow around the borders of the website’s buttons.
+* The glow should be visible but restrained, not excessive or distracting.
+* Use a soft outer shadow or layered CSS box-shadow.
+* Add a smooth hover transition that makes the glow slightly stronger when hovering.
+* Keep the existing button shapes, sizes, and colors unless necessary for consistency.
+
+3. Website background
+
+* Use the image public/background.jpeg as the main website background.
+* Make it cover the entire website and scale properly on desktop and mobile.
+* Add a subtle blur effect to the background, without blurring the actual website content.
+* Use a dark overlay so text and buttons remain clearly readable.
+* Ensure the background looks consistent across all pages and sections.
+
+4. Website logo
+
+* Replace the existing website logo with public/donlusso-logo.png.
+* Use it consistently wherever the website logo appears, including the navigation and footer.
+* Preserve its proportions and do not stretch or distort it.
+* Make sure it displays correctly on mobile and desktop.
+
+5. Homepage – “What Membership Is For” section
+
+* Keep the section itself.
+* Make the content columns noticeably narrower and tighter.
+* Reduce excessive horizontal spacing between the columns.
+* Keep the layout balanced and visually elegant.
+* Remove these three items completely:
+    * Member Research
+    * Member Community
+    * Trading Education
+* Make sure the remaining content is properly aligned and does not leave awkward empty spaces.
+
+6. Navigation menu
+
+Simplify the navigation. It should contain ONLY:
+
+* Home
+* About
+* Membership
+* Sign In
+* Explore Membership (the main highlighted call-to-action button)
+
+Remove the Products page/link entirely from the navigation.
+
+7. Footer
+
+* Remove the entire “Explore” section from the footer.
+* Adjust the remaining footer columns and spacing so the footer still looks balanced.
+* Remove any unnecessary empty spaces left behind.
+
+Important requirements
+
+* Maintain the existing responsive design.
+* Check both desktop and iPhone-sized layouts.
+* Do not remove or break authentication, checkout, membership functionality, routes, or existing integrations.
+* Do not change payment logic, database structures, or backend functionality.
+* Reuse existing components and styles wherever possible.
+* After making the changes, run the project build and fix any errors.
+
+Please implement all of these changes and show me the updated website preview.
